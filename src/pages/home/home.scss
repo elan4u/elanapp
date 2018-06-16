@@ -1,3 +1,20 @@
 page-home {
-
+    @import url('https://fonts.googleapis.com/css?family=Bevan');
+    @supports (column-count: 2) {
+        .wrapper {
+          column-count: 2;
+          column-gap: 0.1em;
+        }
+        section {
+          background-color: red;
+          text-align: center;
+          box-sizing: border-box;
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+      
 }
