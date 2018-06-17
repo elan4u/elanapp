@@ -28,7 +28,7 @@ export class ParallaxHeaderDirective {
     this.header = content.getElementsByClassName('header-image')[0];
     // Main Content
     let mainContent = content.getElementsByClassName('main-content')[0];
-    let mainContentSkleton = content.getElementsByClassName('main-content-skleton')[0];
+    //let mainContentSkleton = content.getElementsByClassName('main-content-skleton')[0];
     // Get Header height
     this.headerHeight = this.header.clientHeight;
     // Set some CSS to Main content

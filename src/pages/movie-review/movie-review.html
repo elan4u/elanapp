@@ -1,5 +1,8 @@
 
 <ion-content parallax-header>
+    <ion-fab right bottom (click)="openReviewModal()">
+        <button ion-fab color="danger"><ion-icon name="add"></ion-icon></button>
+      </ion-fab>
   <div class="header-image" [ngStyle]="{'background-image': imgsrc,'height' : imgHeight }">
     <ion-navbar transparent no-border>
     </ion-navbar>
